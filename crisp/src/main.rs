@@ -17,8 +17,8 @@ fn handle_client(mut stream: TcpStream) {
 
 fn main() {
     // Bind the server to localhost on port 7878
-    let listener = TcpListener::bind("127.0.0.1:7878").expect("Failed to bind to address");
-    println!("Listening on port 7878...");
+    let listener = TcpListener::bind("127.0.0.1:6969").expect("Failed to bind to address");
+    println!("Listening on port 6969...");
 
     // Accept incoming connections in a loop
     for stream in listener.incoming() {
